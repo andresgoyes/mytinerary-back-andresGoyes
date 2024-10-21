@@ -1,11 +1,11 @@
 # mytinerary-back-andresGoyes
 
-npm install express
-npm install --save-dev nodemon
-npm install dotenv
-npm install mongoose
-npm i cors
-npm i morgan
+- npm install express
+- npm install --save-dev nodemon
+- npm install dotenv
+- npm install mongoose
+- npm i cors
+- npm i morgan
 
 Create and configure .env finle
 PORT = 8080
