@@ -1,4 +1,5 @@
-{ "name": "backend-cities",
+{
+  "name": "backend-cities",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
