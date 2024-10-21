@@ -10,7 +10,7 @@ let schema = new Schema({
     currency: { type: String, required: true },
     description: { type: String, required: true }
 }, {
-    timestamps: true // Agrega createdAt y updatedAt automáticamente
+    timestamps: true
 });
 
 let City = model(collection, schema);
