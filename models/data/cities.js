@@ -4,164 +4,164 @@ import City from '../City.js';
 
 const cities = [
     {
-        name: "París",
+        name: "Paris",
         photo: "https://www.revistabrooke.com/wp-content/uploads/2021/01/portada-paris.jpg",
-        country: "Francia",
-        continent: "Europa",
+        country: "France",
+        continent: "Europe",
         currency: "Euro (€)",
-        description: "París es la capital de Francia, conocida como la 'Ciudad del Amor' y famosa por la Torre Eiffel, el Louvre y su gastronomía."
+        description: "Paris is the capital of France, known as the 'City of Love' and famous for the Eiffel Tower, the Louvre, and its cuisine."
     },
     {
-        name: "Tokio",
+        name: "Tokyo",
         photo: "https://viajes.nationalgeographic.com.es/medio/2024/09/03/tokio_133ce43a_1284581217_240903122054_1280x854.jpg",
-        country: "Japón",
+        country: "Japan",
         continent: "Asia",
-        currency: "Yen japonés (¥)",
-        description: "Tokio es una de las metrópolis más grandes y modernas del mundo, conocida por su tecnología, cultura pop, y templos tradicionales."
+        currency: "Japanese Yen (¥)",
+        description: "Tokyo is one of the largest and most modern metropolises in the world, known for its technology, pop culture, and traditional temples."
     },
     {
-        name: "Nueva York",
+        name: "New York",
         photo: "https://mbmarcobeteta.com/wp-content/uploads/2021/02/shutterstock_248799484-scaled.jpg",
-        country: "Estados Unidos",
-        continent: "América del Norte",
-        currency: "Dólar estadounidense ($)",
-        description: "Nueva York es una ciudad vibrante famosa por la Estatua de la Libertad, Times Square y Wall Street, y es un centro cultural y financiero mundial."
+        country: "United States",
+        continent: "North America",
+        currency: "US Dollar ($)",
+        description: "New York is a vibrant city famous for the Statue of Liberty, Times Square, and Wall Street, and is a global cultural and financial hub."
     },
     {
-        name: "Ciudad del Cabo",
+        name: "Cape Town",
         photo: "https://www.rojocangrejo.com/wp-content/uploads/sites/192/2019/01/que-ver-en-ciudad-del-cabo.jpg",
-        country: "Sudáfrica",
-        continent: "África",
-        currency: "Rand sudafricano (R)",
-        description: "Ciudad del Cabo es conocida por su mezcla de culturas, paisajes naturales espectaculares como la Montaña de la Mesa y su costa hermosa."
+        country: "South Africa",
+        continent: "Africa",
+        currency: "South African Rand (R)",
+        description: "Cape Town is known for its blend of cultures, stunning natural landscapes like Table Mountain, and its beautiful coastline."
     },
     {
-        name: "Sídney",
+        name: "Sydney",
         photo: "https://i.natgeofe.com/n/bd48279e-be5a-4f28-9551-5cb917c6766e/GettyImages-103455489cropped.jpg",
         country: "Australia",
-        continent: "Oceanía",
-        currency: "Dólar australiano (A$)",
-        description: "Sídney es famosa por su icónica Casa de la Ópera, el Puente del Puerto, y sus hermosas playas."
+        continent: "Oceania",
+        currency: "Australian Dollar (A$)",
+        description: "Sydney is famous for its iconic Opera House, Harbour Bridge, and beautiful beaches."
     },
     {
-        name: "Roma",
+        name: "Rome",
         photo: "https://static.nationalgeographic.es/files/styles/image_3200/public/colosseum-daylight-rome-italy.jpg",
-        country: "Italia",
-        continent: "Europa",
+        country: "Italy",
+        continent: "Europe",
         currency: "Euro (€)",
-        description: "Roma es famosa por su historia milenaria, monumentos como el Coliseo y la Ciudad del Vaticano."
+        description: "Rome is famous for its ancient history, monuments like the Colosseum and the Vatican City."
     },
     {
         name: "Bangkok",
         photo: "https://viajes.nationalgeographic.com.es/medio/2023/06/28/gran-palacio-real_491caafe_1385269772_230628145613_1280x854.jpg",
-        country: "Tailandia",
+        country: "Thailand",
         continent: "Asia",
-        currency: "Baht tailandés (฿)",
-        description: "Bangkok es conocida por sus templos dorados, mercados flotantes y vida nocturna vibrante."
+        currency: "Thai Baht (฿)",
+        description: "Bangkok is known for its golden temples, floating markets, and vibrant nightlife."
     },
     {
-        name: "Río de Janeiro",
+        name: "Rio de Janeiro",
         photo: "https://elviajista.com/wp-content/uploads/2018/01/dondedormirenriodejaneiro.jpg",
-        country: "Brasil",
-        continent: "América del Sur",
-        currency: "Real brasileño (R$)",
-        description: "Río es famosa por el Cristo Redentor, el Carnaval y las playas de Copacabana e Ipanema."
+        country: "Brazil",
+        continent: "South America",
+        currency: "Brazilian Real (R$)",
+        description: "Rio is famous for Christ the Redeemer, Carnival, and the beaches of Copacabana and Ipanema."
     },
     {
-        name: "Dubái",
+        name: "Dubai",
         photo: "https://www.dubai.it/es/wp-content/uploads/sites/100/playas-dubai-hd.jpg",
-        country: "Emiratos Árabes Unidos",
+        country: "United Arab Emirates",
         continent: "Asia",
-        currency: "Dírham (AED)",
-        description: "Dubái es famosa por su arquitectura futurista, como el Burj Khalifa, y sus centros comerciales gigantes."
+        currency: "Dirham (AED)",
+        description: "Dubai is famous for its futuristic architecture, like the Burj Khalifa, and its giant shopping malls."
     },
     {
-        name: "Berlín",
+        name: "Berlin",
         photo: "https://pohcdn.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/berlin.jpg",
-        country: "Alemania",
-        continent: "Europa",
+        country: "Germany",
+        continent: "Europe",
         currency: "Euro (€)",
-        description: "Berlín combina historia, cultura moderna y es conocida por su Muro y la Puerta de Brandeburgo."
+        description: "Berlin combines history and modern culture and is known for its Wall and Brandenburg Gate."
     },
     {
         name: "San Francisco",
         photo: "https://blog.grandvoyage.com/wp-content/uploads/2024/01/OK-Golden-Gate-PORTADA.jpg",
-        country: "Estados Unidos",
-        continent: "América del Norte",
-        currency: "Dólar estadounidense ($)",
-        description: "San Francisco es famosa por el puente Golden Gate y su ambiente bohemio."
+        country: "United States",
+        continent: "North America",
+        currency: "US Dollar ($)",
+        description: "San Francisco is famous for the Golden Gate Bridge and its bohemian atmosphere."
     },
     {
         name: "Buenos Aires",
         photo: "https://blogskystorage.s3.amazonaws.com/2021/07/skyairline_skyairline_image_182.jpeg",
         country: "Argentina",
-        continent: "América del Sur",
-        currency: "Peso argentino (ARS)",
-        description: "Buenos Aires destaca por su arquitectura europea, el tango y su gastronomía."
+        continent: "South America",
+        currency: "Argentine Peso (ARS)",
+        description: "Buenos Aires is known for its European architecture, tango, and gastronomy."
     },
     {
-        name: "El Cairo",
+        name: "Cairo",
         photo: "https://viajareaegipto.com/wp-content/uploads/2020/10/El-Cairo-en-Egipto.jpg",
-        country: "Egipto",
-        continent: "África",
-        currency: "Libra egipcia (EGP)",
-        description: "El Cairo es hogar de las Pirámides de Giza y la Gran Esfinge."
+        country: "Egypt",
+        continent: "Africa",
+        currency: "Egyptian Pound (EGP)",
+        description: "Cairo is home to the Pyramids of Giza and the Great Sphinx."
     },
     {
         name: "Auckland",
         photo: "https://www.newzealand.com/assets/Tourism-NZ/Auckland/img-1536065871-6217-4403-p-10D1D0BD-B88E-AAB3-AE3F2E903EF65717-2544003__aWxvdmVrZWxseQo_CropResizeWzE5MDAsMTAwMCw3NSwianBnIl0.jpg",
-        country: "Nueva Zelanda",
-        continent: "Oceanía",
-        currency: "Dólar neozelandés (NZD)",
-        description: "Auckland es conocida por su vibrante puerto y cercanía a paisajes naturales únicos."
+        country: "New Zealand",
+        continent: "Oceania",
+        currency: "New Zealand Dollar (NZD)",
+        description: "Auckland is known for its vibrant harbor and proximity to unique natural landscapes."
     },
     {
         name: "Lisboa",
         photo: "https://tarifaserror.viajes/wp-content/uploads/2024/09/t-2024-09-21T081642.805.png",
         country: "Portugal",
-        continent: "Europa",
+        continent: "Europe",
         currency: "Euro (€)",
-        description: "Lisboa destaca por sus callejuelas empedradas, tranvías y el barrio de Alfama."
+        description: "Lisboa is known for its cobbled streets, trams, and the Alfama district."
     },
     {
-        name: "Seúl",
+        name: "Seoul",
         photo: "https://colombianabroad.com/wp-content/uploads/seul-alojamiento-feature-1024x768.jpg",
-        country: "Corea del Sur",
+        country: "South Korea",
         continent: "Asia",
-        currency: "Won surcoreano (₩)",
-        description: "Seúl es famosa por sus palacios antiguos, rascacielos y la cultura K-pop."
+        currency: "South Korean Won (₩)",
+        description: "Seoul is famous for its ancient palaces, skyscrapers, and K-pop culture."
     },
     {
-        name: "Estambul",
+        name: "Istanbul",
         photo: "https://www.civitatis.com/blog/wp-content/uploads/2020/05/estambul-un-dia.jpg",
-        country: "Turquía",
-        continent: "Europa y Asia",
-        currency: "Lira turca (₺)",
-        description: "Estambul destaca por ser un puente entre Europa y Asia, con la icónica Mezquita Azul."
+        country: "Turkey",
+        continent: "Europe and Asia",
+        currency: "Turkish Lira (₺)",
+        description: "Istanbul is known for being a bridge between Europe and Asia, with the iconic Blue Mosque."
     },
     {
-        name: "Moscú",
+        name: "Moscow",
         photo: "https://www.civitatis.com/blog/wp-content/uploads/2019/09/invierno-moscu.jpg",
-        country: "Rusia",
-        continent: "Europa",
-        currency: "Rublo (₽)",
-        description: "Moscú es famosa por la Plaza Roja, el Kremlin y la catedral de San Basilio."
+        country: "Russia",
+        continent: "Europe",
+        currency: "Ruble (₽)",
+        description: "Moscow is famous for Red Square, the Kremlin, and St. Basil's Cathedral."
     },
     {
         name: "Vancouver",
         photo: "https://wheatlesswanderlust.com/wp-content/uploads/2023/12/Vancouver-BC-in-the-winter-scaled.jpg",
-        country: "Canadá",
-        continent: "América del Norte",
-        currency: "Dólar canadiense (CAD)",
-        description: "Vancouver es conocida por su belleza natural y su vibrante escena cultural."
+        country: "Canada",
+        continent: "North America",
+        currency: "Canadian Dollar (CAD)",
+        description: "Vancouver is known for its natural beauty and vibrant cultural scene."
     },
     {
         name: "Madrid",
         photo: "https://madridando.com/wp-content/uploads/2018/07/gran-via-noche.jpeg",
-        country: "España",
-        continent: "Europa",
+        country: "Spain",
+        continent: "Europe",
         currency: "Euro (€)",
-        description: "Madrid es conocida por sus museos, parques y la animada vida nocturna."
+        description: "Madrid is known for its museums, parks, and lively nightlife."
     },
     {
         name: "Hanoi",
@@ -169,80 +169,81 @@ const cities = [
         country: "Vietnam",
         continent: "Asia",
         currency: "Dong (₫)",
-        description: "Hanoi combina tradición y modernidad, destacando su casco antiguo y el lago Hoan Kiem."
+        description: "Hanoi combines tradition and modernity, featuring its old quarter and Hoan Kiem Lake."
     },
     {
-        name: "Johannesburgo",
+        name: "Johannesburg",
         photo: "https://www.fulltravel.it/wp-content/uploads/2010/03/My-Kind-of-Place-Johannesburg.jpg",
-        country: "Sudáfrica",
-        continent: "África",
-        currency: "Rand sudafricano (R)",
-        description: "Es un centro económico en Sudáfrica, conocido por su historia y museos sobre el apartheid."
+        country: "South Africa",
+        continent: "Africa",
+        currency: "South African Rand (R)",
+        description: "It is an economic center in South Africa, known for its history and museums about apartheid."
     },
     {
         name: "Oslo",
         photo: "https://www.cloud-europamundo.com/img/carousel/hd/Bergen_20211129125511.jpg",
-        country: "Noruega",
-        continent: "Europa",
-        currency: "Corona noruega (NOK)",
-        description: "Oslo es conocida por sus museos, espacios verdes y cercanía a los fiordos noruegos."
+        country: "Norway",
+        continent: "Europe",
+        currency: "Norwegian Krone (NOK)",
+        description: "Oslo is known for its museums, green spaces, and proximity to Norwegian fjords."
     },
     {
         name: "Lima",
         photo: "https://www.peru.travel/Contenido/Noticia/Imagen/es/1923/1.0/Principal/plaza-de-armas-lima-desktop.jpg",
-        country: "Perú",
-        continent: "América del Sur",
-        currency: "Sol peruano (PEN)",
-        description: "Lima es conocida por su gastronomía y su mezcla de arquitectura colonial y moderna."
+        country: "Peru",
+        continent: "South America",
+        currency: "Peruvian Sol (PEN)",
+        description: "Lima is known for its gastronomy and its mix of colonial and modern architecture."
     },
     {
-        name: "Reikiavik",
+        name: "Reykjavik",
         photo: "https://content.r9cdn.net/rimg/dimg/f2/50/76faf4b0-city-11024-556f15e0.jpg",
-        country: "Islandia",
-        continent: "Europa",
-        currency: "Corona islandesa (ISK)",
-        description: "Reikiavik es la capital más septentrional del mundo, famosa por sus paisajes naturales y auroras boreales."
+        country: "Iceland",
+        continent: "Europe",
+        currency: "Icelandic Króna (ISK)",
+        description: "Reykjavik is the world's northernmost capital, famous for its natural landscapes and northern lights."
     },
     {
         name: "Cali",
         photo: "https://www.turismauro.com/wp-content/uploads/2020/08/cristo-rey_cali-scaled.jpg",
         country: "Colombia",
-        continent: "América del Sur",
-        currency: "Peso colombiano (COP)",
-        description: "Cali es conocida como la 'Capital Mundial de la Salsa', famosa por su música, festivales y ambiente cálido."
+        continent: "South America",
+        currency: "Colombian Peso (COP)",
+        description: "Cali is known as the 'World Capital of Salsa', famous for its music, festivals, and warm atmosphere."
     },
     {
-        name: "Medellín",
+        name: "Medellin",
         photo: "https://cdn.forbes.co/2020/09/Medell%C3%ADn-foto-ProColombia.jpg",
         country: "Colombia",
-        continent: "América del Sur",
-        currency: "Peso colombiano (COP)",
-        description: "Medellín, la 'Ciudad de la Eterna Primavera', es conocida por su clima templado, innovación y el Festival de las Flores."
+        continent: "South America",
+        currency: "Colombian Peso (COP)",
+        description: "Medellin, the 'City of Eternal Spring', is known for its mild climate, innovation, and the Flower Festival."
     },
     {
-        name: "Bogotá",
+        name: "Bogota",
         photo: "https://blog.urbansa.co/hubfs/Centro%20de%20la%20ciudad%20-%20El%20centro%20de%20Bogot%C3%A1-Bogot%C3%A1%20de%20noche.jpg",
         country: "Colombia",
-        continent: "América del Sur",
-        currency: "Peso colombiano (COP)",
-        description: "Bogotá, la capital de Colombia, es el corazón cultural y económico del país, con museos como el Museo del Oro y el barrio de La Candelaria."
+        continent: "South America",
+        currency: "Colombian Peso (COP)",
+        description: "Bogotá, the capital of Colombia, is the cultural and economic heart of the country, with museums like the Gold Museum and the La Candelaria neighborhood."
     },
     {
         name: "Cartagena",
         photo: "https://www.esariri.com/wp-content/uploads/2022/09/Cartagena-scaled.jpg",
         country: "Colombia",
-        continent: "América del Sur",
-        currency: "Peso colombiano (COP)",
-        description: "Cartagena es famosa por su ciudad amurallada, playas caribeñas y arquitectura colonial."
+        continent: "South America",
+        currency: "Colombian Peso (COP)",
+        description: "Cartagena is famous for its walled city, Caribbean beaches, and colonial architecture."
     },
     {
-        name: "San Andrés",
+        name: "San Andres",
         photo: "https://www.procuraduria.gov.co/PublishingImages/48731E80-29DD-4A39-9E61-D23C4D8CD804.jpeg",
         country: "Colombia",
-        continent: "América del Sur",
-        currency: "Peso colombiano (COP)",
-        description: "San Andrés es una isla paradisíaca en el Caribe, conocida por su mar de siete colores y la Reserva de la Biosfera Seaflower."
-    }];
+        continent: "South America",
+        currency: "Colombian Peso (COP)",
+        description: "San Andrés is a paradise island in the Caribbean, known for its seven-colored sea and the Seaflower Biosphere Reserve."
+    }
+];
 
 console.log(cities);
 
