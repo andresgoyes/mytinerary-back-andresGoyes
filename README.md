@@ -7,8 +7,7 @@
 - npm i cors
 - npm i morgan
 
-***IMPORTANT***
-Run: 
+***VERY IMPORTANT***
 - npm run dataUsers
 
 Create and configure a .env file
