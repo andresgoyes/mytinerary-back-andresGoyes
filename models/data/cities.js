@@ -5,7 +5,7 @@ import City from '../City.js';
 const cities = [
     {
         name: "París",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Paris_Night.jpg",
+        photo: "https://www.revistabrooke.com/wp-content/uploads/2021/01/portada-paris.jpg",
         country: "Francia",
         continent: "Europa",
         currency: "Euro (€)",
@@ -13,7 +13,7 @@ const cities = [
     },
     {
         name: "Tokio",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/2/27/Night_view_of_Shinjuku.jpg",
+        photo: "https://viajes.nationalgeographic.com.es/medio/2024/09/03/tokio_133ce43a_1284581217_240903122054_1280x854.jpg",
         country: "Japón",
         continent: "Asia",
         currency: "Yen japonés (¥)",
@@ -21,7 +21,7 @@ const cities = [
     },
     {
         name: "Nueva York",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/4/4d/New_York_City_at_night_HDR.jpg",
+        photo: "https://mbmarcobeteta.com/wp-content/uploads/2021/02/shutterstock_248799484-scaled.jpg",
         country: "Estados Unidos",
         continent: "América del Norte",
         currency: "Dólar estadounidense ($)",
@@ -29,7 +29,7 @@ const cities = [
     },
     {
         name: "Ciudad del Cabo",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Cape_Town_CBD_and_Harbour.jpg",
+        photo: "https://www.rojocangrejo.com/wp-content/uploads/sites/192/2019/01/que-ver-en-ciudad-del-cabo.jpg",
         country: "Sudáfrica",
         continent: "África",
         currency: "Rand sudafricano (R)",
@@ -37,7 +37,7 @@ const cities = [
     },
     {
         name: "Sídney",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/8/84/Sydney_Opera_House_Closeup.jpg",
+        photo: "https://i.natgeofe.com/n/bd48279e-be5a-4f28-9551-5cb917c6766e/GettyImages-103455489cropped.jpg",
         country: "Australia",
         continent: "Oceanía",
         currency: "Dólar australiano (A$)",
@@ -45,7 +45,7 @@ const cities = [
     },
     {
         name: "Roma",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/5/50/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+        photo: "https://static.nationalgeographic.es/files/styles/image_3200/public/colosseum-daylight-rome-italy.jpg",
         country: "Italia",
         continent: "Europa",
         currency: "Euro (€)",
@@ -53,7 +53,7 @@ const cities = [
     },
     {
         name: "Bangkok",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Bangkok_skyline_from_Golden_Mount.jpg",
+        photo: "https://viajes.nationalgeographic.com.es/medio/2023/06/28/gran-palacio-real_491caafe_1385269772_230628145613_1280x854.jpg",
         country: "Tailandia",
         continent: "Asia",
         currency: "Baht tailandés (฿)",
@@ -61,7 +61,7 @@ const cities = [
     },
     {
         name: "Río de Janeiro",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Rio_de_Janeiro_Brazil.jpg",
+        photo: "https://elviajista.com/wp-content/uploads/2018/01/dondedormirenriodejaneiro.jpg",
         country: "Brasil",
         continent: "América del Sur",
         currency: "Real brasileño (R$)",
@@ -69,7 +69,7 @@ const cities = [
     },
     {
         name: "Dubái",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Dubai_skyline_at_night.jpg",
+        photo: "https://www.dubai.it/es/wp-content/uploads/sites/100/playas-dubai-hd.jpg",
         country: "Emiratos Árabes Unidos",
         continent: "Asia",
         currency: "Dírham (AED)",
@@ -77,7 +77,7 @@ const cities = [
     },
     {
         name: "Berlín",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Berlin_Brandenburg_Gate_Night.jpg",
+        photo: "https://pohcdn.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/berlin.jpg",
         country: "Alemania",
         continent: "Europa",
         currency: "Euro (€)",
@@ -85,7 +85,7 @@ const cities = [
     },
     {
         name: "San Francisco",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/a/af/GoldenGateBridge-001.jpg",
+        photo: "https://blog.grandvoyage.com/wp-content/uploads/2024/01/OK-Golden-Gate-PORTADA.jpg",
         country: "Estados Unidos",
         continent: "América del Norte",
         currency: "Dólar estadounidense ($)",
@@ -93,7 +93,7 @@ const cities = [
     },
     {
         name: "Buenos Aires",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Buenos_Aires_Microcentro.jpg",
+        photo: "https://blogskystorage.s3.amazonaws.com/2021/07/skyairline_skyairline_image_182.jpeg",
         country: "Argentina",
         continent: "América del Sur",
         currency: "Peso argentino (ARS)",
@@ -101,7 +101,7 @@ const cities = [
     },
     {
         name: "El Cairo",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Great_Sphinx_and_Pyramid_of_Khafre.jpg",
+        photo: "https://viajareaegipto.com/wp-content/uploads/2020/10/El-Cairo-en-Egipto.jpg",
         country: "Egipto",
         continent: "África",
         currency: "Libra egipcia (EGP)",
@@ -109,7 +109,7 @@ const cities = [
     },
     {
         name: "Auckland",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Auckland_skyline.jpg",
+        photo: "https://www.newzealand.com/assets/Tourism-NZ/Auckland/img-1536065871-6217-4403-p-10D1D0BD-B88E-AAB3-AE3F2E903EF65717-2544003__aWxvdmVrZWxseQo_CropResizeWzE5MDAsMTAwMCw3NSwianBnIl0.jpg",
         country: "Nueva Zelanda",
         continent: "Oceanía",
         currency: "Dólar neozelandés (NZD)",
@@ -117,7 +117,7 @@ const cities = [
     },
     {
         name: "Lisboa",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/6/68/Lisbon_sunset.jpg",
+        photo: "https://tarifaserror.viajes/wp-content/uploads/2024/09/t-2024-09-21T081642.805.png",
         country: "Portugal",
         continent: "Europa",
         currency: "Euro (€)",
@@ -125,7 +125,7 @@ const cities = [
     },
     {
         name: "Seúl",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Seoul_skyline.jpg",
+        photo: "https://colombianabroad.com/wp-content/uploads/seul-alojamiento-feature-1024x768.jpg",
         country: "Corea del Sur",
         continent: "Asia",
         currency: "Won surcoreano (₩)",
@@ -133,7 +133,7 @@ const cities = [
     },
     {
         name: "Estambul",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/3/32/Istanbul_sunset.jpg",
+        photo: "https://www.civitatis.com/blog/wp-content/uploads/2020/05/estambul-un-dia.jpg",
         country: "Turquía",
         continent: "Europa y Asia",
         currency: "Lira turca (₺)",
@@ -141,7 +141,7 @@ const cities = [
     },
     {
         name: "Moscú",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/3/3f/RedSquare_Moscow.jpg",
+        photo: "https://www.civitatis.com/blog/wp-content/uploads/2019/09/invierno-moscu.jpg",
         country: "Rusia",
         continent: "Europa",
         currency: "Rublo (₽)",
@@ -149,7 +149,7 @@ const cities = [
     },
     {
         name: "Vancouver",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Vancouver_skyline.jpg",
+        photo: "https://wheatlesswanderlust.com/wp-content/uploads/2023/12/Vancouver-BC-in-the-winter-scaled.jpg",
         country: "Canadá",
         continent: "América del Norte",
         currency: "Dólar canadiense (CAD)",
@@ -157,7 +157,7 @@ const cities = [
     },
     {
         name: "Madrid",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Plaza_Mayor_de_Madrid.jpg",
+        photo: "https://madridando.com/wp-content/uploads/2018/07/gran-via-noche.jpeg",
         country: "España",
         continent: "Europa",
         currency: "Euro (€)",
@@ -165,7 +165,7 @@ const cities = [
     },
     {
         name: "Hanoi",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/a/a6/Hanoi_Opera_House.jpg",
+        photo: "https://image.vietnam.travel/sites/default/files/styles/top_banner/public/2023-01/shutterstock_589742027_4.jpg",
         country: "Vietnam",
         continent: "Asia",
         currency: "Dong (₫)",
@@ -173,7 +173,7 @@ const cities = [
     },
     {
         name: "Johannesburgo",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/8/85/Johannesburg_skyline.jpg",
+        photo: "https://www.fulltravel.it/wp-content/uploads/2010/03/My-Kind-of-Place-Johannesburg.jpg",
         country: "Sudáfrica",
         continent: "África",
         currency: "Rand sudafricano (R)",
@@ -181,7 +181,7 @@ const cities = [
     },
     {
         name: "Oslo",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Oslo_skyline.jpg",
+        photo: "https://www.cloud-europamundo.com/img/carousel/hd/Bergen_20211129125511.jpg",
         country: "Noruega",
         continent: "Europa",
         currency: "Corona noruega (NOK)",
@@ -189,7 +189,7 @@ const cities = [
     },
     {
         name: "Lima",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/5/58/Lima_downtown.jpg",
+        photo: "https://www.peru.travel/Contenido/Noticia/Imagen/es/1923/1.0/Principal/plaza-de-armas-lima-desktop.jpg",
         country: "Perú",
         continent: "América del Sur",
         currency: "Sol peruano (PEN)",
@@ -197,7 +197,7 @@ const cities = [
     },
     {
         name: "Reikiavik",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Reykjavik_view.jpg",
+        photo: "https://content.r9cdn.net/rimg/dimg/f2/50/76faf4b0-city-11024-556f15e0.jpg",
         country: "Islandia",
         continent: "Europa",
         currency: "Corona islandesa (ISK)",
@@ -205,7 +205,7 @@ const cities = [
     },
     {
         name: "Cali",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cali_panorama.jpg",
+        photo: "https://www.turismauro.com/wp-content/uploads/2020/08/cristo-rey_cali-scaled.jpg",
         country: "Colombia",
         continent: "América del Sur",
         currency: "Peso colombiano (COP)",
@@ -213,7 +213,7 @@ const cities = [
     },
     {
         name: "Medellín",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Medellin_skyline.jpg",
+        photo: "https://cdn.forbes.co/2020/09/Medell%C3%ADn-foto-ProColombia.jpg",
         country: "Colombia",
         continent: "América del Sur",
         currency: "Peso colombiano (COP)",
@@ -221,7 +221,7 @@ const cities = [
     },
     {
         name: "Bogotá",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/5/51/Bogota_downtown.jpg",
+        photo: "https://blog.urbansa.co/hubfs/Centro%20de%20la%20ciudad%20-%20El%20centro%20de%20Bogot%C3%A1-Bogot%C3%A1%20de%20noche.jpg",
         country: "Colombia",
         continent: "América del Sur",
         currency: "Peso colombiano (COP)",
@@ -229,7 +229,7 @@ const cities = [
     },
     {
         name: "Cartagena",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Cartagena_de_Indias_view.jpg",
+        photo: "https://www.esariri.com/wp-content/uploads/2022/09/Cartagena-scaled.jpg",
         country: "Colombia",
         continent: "América del Sur",
         currency: "Peso colombiano (COP)",
@@ -237,13 +237,12 @@ const cities = [
     },
     {
         name: "San Andrés",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/f/f9/San_Andres_Island_view.jpg",
+        photo: "https://www.procuraduria.gov.co/PublishingImages/48731E80-29DD-4A39-9E61-D23C4D8CD804.jpeg",
         country: "Colombia",
         continent: "América del Sur",
         currency: "Peso colombiano (COP)",
         description: "San Andrés es una isla paradisíaca en el Caribe, conocida por su mar de siete colores y la Reserva de la Biosfera Seaflower."
-    }
-];
+    }];
 
 console.log(cities);
 

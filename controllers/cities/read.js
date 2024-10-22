@@ -2,10 +2,23 @@ import City from "../../models/City.js";
 
 let allCities = async (req, res, next) => {
     try {
-        let all = await City.find();
-        return res.status(200).json({
-            response: all
-        });
+        let { name } = req.query;
+        let query = {};
+
+        if (name) {
+            query.name = { $regex: '^' + name, $options: 'i' };
+        }
+
+        let all = await City.find(query);
+        if (all.length > 0) {
+            return res.status(200).json({
+                response: all
+            });
+        } else {
+            return res.status(404).json({
+                response: "No cities found with the specified name"
+            });
+        }
     } catch (error) {
         next(error);
     }
@@ -50,7 +63,7 @@ let cityByCountry = async (req, res, next) => {
 };
 
 let cityById = async (req, res, next) => {
-    try {        
+    try {
         let cityId = req.params.id;
         let city = await City.findById(cityId);
 
