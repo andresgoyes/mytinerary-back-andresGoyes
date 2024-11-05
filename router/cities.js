@@ -4,8 +4,6 @@ import { create, createMany } from "../controllers/cities/create.js"
 import { update } from "../controllers/cities/update.js";
 import { deleteCity } from "../controllers/cities/delete.js";
 
-export {  };
-
 const router = Router();
 
 router.get('/all', allCities); 

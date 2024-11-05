@@ -9,7 +9,8 @@ const cities = [
         country: "France",
         continent: "Europe",
         currency: "Euro (€)",
-        description: "Paris is the capital of France, known as the 'City of Love' and famous for the Eiffel Tower, the Louvre, and its cuisine."
+        description: "Paris is the capital of France, known as the 'City of Love' and famous for the Eiffel Tower, the Louvre, and its cuisine.",
+        likes: 100    
     },
     {
         name: "Tokyo",
@@ -17,7 +18,8 @@ const cities = [
         country: "Japan",
         continent: "Asia",
         currency: "Japanese Yen (¥)",
-        description: "Tokyo is one of the largest and most modern metropolises in the world, known for its technology, pop culture, and traditional temples."
+        description: "Tokyo is one of the largest and most modern metropolises in the world, known for its technology, pop culture, and traditional temples.",
+        likes: 50
     },
     {
         name: "New York",
@@ -25,7 +27,8 @@ const cities = [
         country: "United States",
         continent: "North America",
         currency: "US Dollar ($)",
-        description: "New York is a vibrant city famous for the Statue of Liberty, Times Square, and Wall Street, and is a global cultural and financial hub."
+        description: "New York is a vibrant city famous for the Statue of Liberty, Times Square, and Wall Street, and is a global cultural and financial hub.",
+        likes: 250
     },
     {
         name: "Cape Town",
@@ -33,7 +36,8 @@ const cities = [
         country: "South Africa",
         continent: "Africa",
         currency: "South African Rand (R)",
-        description: "Cape Town is known for its blend of cultures, stunning natural landscapes like Table Mountain, and its beautiful coastline."
+        description: "Cape Town is known for its blend of cultures, stunning natural landscapes like Table Mountain, and its beautiful coastline.",
+        likes: 20
     },
     {
         name: "Sydney",
@@ -41,7 +45,8 @@ const cities = [
         country: "Australia",
         continent: "Oceania",
         currency: "Australian Dollar (A$)",
-        description: "Sydney is famous for its iconic Opera House, Harbour Bridge, and beautiful beaches."
+        description: "Sydney is famous for its iconic Opera House, Harbour Bridge, and beautiful beaches.",
+        likes: 155
     },
     {
         name: "Rome",
@@ -49,7 +54,8 @@ const cities = [
         country: "Italy",
         continent: "Europe",
         currency: "Euro (€)",
-        description: "Rome is famous for its ancient history, monuments like the Colosseum and the Vatican City."
+        description: "Rome is famous for its ancient history, monuments like the Colosseum and the Vatican City.",
+        likes: 520
     },
     {
         name: "Bangkok",
@@ -57,7 +63,8 @@ const cities = [
         country: "Thailand",
         continent: "Asia",
         currency: "Thai Baht (฿)",
-        description: "Bangkok is known for its golden temples, floating markets, and vibrant nightlife."
+        description: "Bangkok is known for its golden temples, floating markets, and vibrant nightlife.",
+        likes: 160
     },
     {
         name: "Rio de Janeiro",
@@ -65,7 +72,8 @@ const cities = [
         country: "Brazil",
         continent: "South America",
         currency: "Brazilian Real (R$)",
-        description: "Rio is famous for Christ the Redeemer, Carnival, and the beaches of Copacabana and Ipanema."
+        description: "Rio is famous for Christ the Redeemer, Carnival, and the beaches of Copacabana and Ipanema.",
+        likes: 70
     },
     {
         name: "Dubai",
@@ -73,7 +81,8 @@ const cities = [
         country: "United Arab Emirates",
         continent: "Asia",
         currency: "Dirham (AED)",
-        description: "Dubai is famous for its futuristic architecture, like the Burj Khalifa, and its giant shopping malls."
+        description: "Dubai is famous for its futuristic architecture, like the Burj Khalifa, and its giant shopping malls.",
+        likes: 40
     },
     {
         name: "Berlin",
@@ -81,7 +90,8 @@ const cities = [
         country: "Germany",
         continent: "Europe",
         currency: "Euro (€)",
-        description: "Berlin combines history and modern culture and is known for its Wall and Brandenburg Gate."
+        description: "Berlin combines history and modern culture and is known for its Wall and Brandenburg Gate.",
+        likes: 210
     },
     {
         name: "San Francisco",
@@ -89,7 +99,8 @@ const cities = [
         country: "United States",
         continent: "North America",
         currency: "US Dollar ($)",
-        description: "San Francisco is famous for the Golden Gate Bridge and its bohemian atmosphere."
+        description: "San Francisco is famous for the Golden Gate Bridge and its bohemian atmosphere.",
+        likes: 63
     },
     {
         name: "Buenos Aires",
@@ -97,7 +108,8 @@ const cities = [
         country: "Argentina",
         continent: "South America",
         currency: "Argentine Peso (ARS)",
-        description: "Buenos Aires is known for its European architecture, tango, and gastronomy."
+        description: "Buenos Aires is known for its European architecture, tango, and gastronomy.",
+        likes: 750
     },
     {
         name: "Cairo",
@@ -105,7 +117,8 @@ const cities = [
         country: "Egypt",
         continent: "Africa",
         currency: "Egyptian Pound (EGP)",
-        description: "Cairo is home to the Pyramids of Giza and the Great Sphinx."
+        description: "Cairo is home to the Pyramids of Giza and the Great Sphinx.",
+        likes: 430
     },
     {
         name: "Auckland",
@@ -113,7 +126,8 @@ const cities = [
         country: "New Zealand",
         continent: "Oceania",
         currency: "New Zealand Dollar (NZD)",
-        description: "Auckland is known for its vibrant harbor and proximity to unique natural landscapes."
+        description: "Auckland is known for its vibrant harbor and proximity to unique natural landscapes.",
+        likes: 720
     },
     {
         name: "Lisboa",
@@ -121,7 +135,8 @@ const cities = [
         country: "Portugal",
         continent: "Europe",
         currency: "Euro (€)",
-        description: "Lisboa is known for its cobbled streets, trams, and the Alfama district."
+        description: "Lisboa is known for its cobbled streets, trams, and the Alfama district.",
+        likes: 420
     },
     {
         name: "Seoul",
@@ -129,7 +144,8 @@ const cities = [
         country: "South Korea",
         continent: "Asia",
         currency: "South Korean Won (₩)",
-        description: "Seoul is famous for its ancient palaces, skyscrapers, and K-pop culture."
+        description: "Seoul is famous for its ancient palaces, skyscrapers, and K-pop culture.",
+        likes: 75
     },
     {
         name: "Istanbul",
@@ -137,7 +153,8 @@ const cities = [
         country: "Turkey",
         continent: "Europe and Asia",
         currency: "Turkish Lira (₺)",
-        description: "Istanbul is known for being a bridge between Europe and Asia, with the iconic Blue Mosque."
+        description: "Istanbul is known for being a bridge between Europe and Asia, with the iconic Blue Mosque.",
+        likes: 42
     },
     {
         name: "Moscow",
@@ -145,7 +162,8 @@ const cities = [
         country: "Russia",
         continent: "Europe",
         currency: "Ruble (₽)",
-        description: "Moscow is famous for Red Square, the Kremlin, and St. Basil's Cathedral."
+        description: "Moscow is famous for Red Square, the Kremlin, and St. Basil's Cathedral.",
+        likes: 130
     },
     {
         name: "Vancouver",
@@ -153,7 +171,8 @@ const cities = [
         country: "Canada",
         continent: "North America",
         currency: "Canadian Dollar (CAD)",
-        description: "Vancouver is known for its natural beauty and vibrant cultural scene."
+        description: "Vancouver is known for its natural beauty and vibrant cultural scene.",
+        likes: 92
     },
     {
         name: "Madrid",
@@ -161,7 +180,8 @@ const cities = [
         country: "Spain",
         continent: "Europe",
         currency: "Euro (€)",
-        description: "Madrid is known for its museums, parks, and lively nightlife."
+        description: "Madrid is known for its museums, parks, and lively nightlife.",
+        likes: 43
     },
     {
         name: "Hanoi",
@@ -169,7 +189,8 @@ const cities = [
         country: "Vietnam",
         continent: "Asia",
         currency: "Dong (₫)",
-        description: "Hanoi combines tradition and modernity, featuring its old quarter and Hoan Kiem Lake."
+        description: "Hanoi combines tradition and modernity, featuring its old quarter and Hoan Kiem Lake.",
+        likes: 85
     },
     {
         name: "Johannesburg",
@@ -177,7 +198,8 @@ const cities = [
         country: "South Africa",
         continent: "Africa",
         currency: "South African Rand (R)",
-        description: "It is an economic center in South Africa, known for its history and museums about apartheid."
+        description: "It is an economic center in South Africa, known for its history and museums about apartheid.",
+        likes: 77
     },
     {
         name: "Oslo",
@@ -185,7 +207,8 @@ const cities = [
         country: "Norway",
         continent: "Europe",
         currency: "Norwegian Krone (NOK)",
-        description: "Oslo is known for its museums, green spaces, and proximity to Norwegian fjords."
+        description: "Oslo is known for its museums, green spaces, and proximity to Norwegian fjords.",
+        likes: 32
     },
     {
         name: "Lima",
@@ -193,7 +216,8 @@ const cities = [
         country: "Peru",
         continent: "South America",
         currency: "Peruvian Sol (PEN)",
-        description: "Lima is known for its gastronomy and its mix of colonial and modern architecture."
+        description: "Lima is known for its gastronomy and its mix of colonial and modern architecture.",
+        likes: 95
     },
     {
         name: "Reykjavik",
@@ -201,7 +225,8 @@ const cities = [
         country: "Iceland",
         continent: "Europe",
         currency: "Icelandic Króna (ISK)",
-        description: "Reykjavik is the world's northernmost capital, famous for its natural landscapes and northern lights."
+        description: "Reykjavik is the world's northernmost capital, famous for its natural landscapes and northern lights.",
+        likes: 195
     },
     {
         name: "Cali",
@@ -209,7 +234,8 @@ const cities = [
         country: "Colombia",
         continent: "South America",
         currency: "Colombian Peso (COP)",
-        description: "Cali is known as the 'World Capital of Salsa', famous for its music, festivals, and warm atmosphere."
+        description: "Cali is known as the 'World Capital of Salsa', famous for its music, festivals, and warm atmosphere.",
+        likes: 336
     },
     {
         name: "Medellin",
@@ -217,7 +243,8 @@ const cities = [
         country: "Colombia",
         continent: "South America",
         currency: "Colombian Peso (COP)",
-        description: "Medellin, the 'City of Eternal Spring', is known for its mild climate, innovation, and the Flower Festival."
+        description: "Medellin, the 'City of Eternal Spring', is known for its mild climate, innovation, and the Flower Festival.",
+        likes: 46
     },
     {
         name: "Bogota",
@@ -225,7 +252,8 @@ const cities = [
         country: "Colombia",
         continent: "South America",
         currency: "Colombian Peso (COP)",
-        description: "Bogotá, the capital of Colombia, is the cultural and economic heart of the country, with museums like the Gold Museum and the La Candelaria neighborhood."
+        description: "Bogotá, the capital of Colombia, is the cultural and economic heart of the country, with museums like the Gold Museum and the La Candelaria neighborhood.",
+        likes: 164
     },
     {
         name: "Cartagena",
@@ -233,7 +261,8 @@ const cities = [
         country: "Colombia",
         continent: "South America",
         currency: "Colombian Peso (COP)",
-        description: "Cartagena is famous for its walled city, Caribbean beaches, and colonial architecture."
+        description: "Cartagena is famous for its walled city, Caribbean beaches, and colonial architecture.",
+        likes: 234
     },
     {
         name: "San Andres",
@@ -241,7 +270,8 @@ const cities = [
         country: "Colombia",
         continent: "South America",
         currency: "Colombian Peso (COP)",
-        description: "San Andrés is a paradise island in the Caribbean, known for its seven-colored sea and the Seaflower Biosphere Reserve."
+        description: "San Andrés is a paradise island in the Caribbean, known for its seven-colored sea and the Seaflower Biosphere Reserve.",
+        likes: 655
     }
 ];
 

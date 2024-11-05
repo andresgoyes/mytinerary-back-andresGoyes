@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node ./server.js",
     "dev": "nodemon ./server.js",
-    "dataCities": "node ./models/data/cities.js"
+    "dataCities": "node ./models/data/cities.js",
+    "dataItineraries": "node ./models/data/itineraries.js"
   },
   "author": "Andres Goyes",
   "license": "ISC",

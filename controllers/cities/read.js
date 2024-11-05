@@ -46,7 +46,7 @@ let cityByName = async (req, res, next) => {
 let cityByCountry = async (req, res, next) => {
     try {
         let countryQuery = req.params.country;
-        let cities = await City.find({ country: countryQuery });
+        let cities = await City.find({ country: { $regex: countryQuery, $options: 'i' } });
 
         if (cities.length > 0) {
             return res.status(200).json({
