@@ -1,14 +1,10 @@
 # mytinerary-back-andresGoyes
 
-- npm install express
-- npm install --save-dev nodemon
-- npm install dotenv
-- npm install mongoose
-- npm i cors
-- npm i morgan
+- npm i
 
 ***VERY IMPORTANT***
-- npm run dataUsers
+- npm run dataCities
+- npm run dataItineraries
 
 Create and configure a .env file
 - PORT = 8080,
