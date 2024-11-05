@@ -10,3 +10,6 @@ Create and configure a .env file
 ***VERY IMPORTANT***
 - npm run dataCities
 - npm run dataItineraries
+
+***RUN BACKEND***
+- npm run dev
