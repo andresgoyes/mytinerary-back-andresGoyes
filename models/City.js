@@ -9,7 +9,8 @@ let schema = new Schema({
     continent: { type: String, required: true },
     currency: { type: String, required: true },
     description: { type: String, required: true },
-    likes: { type: Number, default: 0 }
+    likes: { type: Number, default: 0 },
+    itineraries: [{ type: Schema.Types.ObjectId, ref: "itineraries"}]
 }, {
     timestamps: true
 });

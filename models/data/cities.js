@@ -23,7 +23,7 @@ const cities = [
     },
     {
         name: "New York",
-        photo: "https://mbmarcobeteta.com/wp-content/uploads/2021/02/shutterstock_248799484-scaled.jpg",
+        photo: "https://images.musement.com/cover/0002/42/view-on-manhattan-at-night-new-york-city_header-141511.jpeg",
         country: "United States",
         continent: "North America",
         currency: "US Dollar ($)",
