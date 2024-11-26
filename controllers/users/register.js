@@ -5,9 +5,17 @@ let register = async (req, res, next) => {
         let user = req.body;
         user.online = false
         let newUser = await User.create(user);
-        return res.status(201).json({
-            response: newUser,
-            message: "User created sucessfully."
+        return res.status(201).json({            
+            success: true,
+            message: "User created successfully.",
+            user: {
+                name: newUser.name,
+                lastname: newUser.lastName,
+                email: newUser.email,
+                photoUrl: newUser.photoUrl,
+                country: newUser.country
+            },
+            token: req.token
         });
     } catch (error) {
         next(error);
