@@ -32,6 +32,7 @@ let userById = async (req, res, next) => {
 
 const userExists = async (req, res, next) => {
     try {
+        
         return res.status(200).json({
             success: true,
             response: req.user

@@ -9,10 +9,10 @@ export default async (req, res, next) => {
 
         return res.status(200).json({
             success: true,
-            message: 'Signed in',
+            message: 'Signed in prueba',
             user: {
                 name: req.user.name,
-                lastname: req.user.lastName,
+                lastName: req.user.lastName,
                 email: req.user.email,
                 photoUrl: req.user.photoUrl,
                 country: req.user.country
