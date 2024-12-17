@@ -7,10 +7,8 @@ export default async(req,res,next) => {
             { email: req.user.email },
             { online: true }
         );
-        console.log(req);
-        console.log(req.user.name);
         
-        return res.redirect('http://localhost:5173/home?token=' + req.token);
+        return res.redirect('https://mytinerary-devfluencer.web.app/home?token=' + req.token);
 
     } catch (error) {
        next(error) 
