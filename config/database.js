@@ -11,7 +11,6 @@ async function dbConnect(params) {
     } catch (error) {
         console.log(error);
     }
-
 }
 
 dbConnect()
