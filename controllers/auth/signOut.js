@@ -5,14 +5,13 @@ export default async (req, res, next) => {
         await User.findOneAndUpdate(
             { email: req.user.email },
             { online: false }
-        )
-        console.log(req);
+        );
 
         return res.status(200).json({
             success: true,
-            message: 'Disconnected'
-        })
+            message: "Disconnected",
+        });
     } catch (error) {
-        next(error)
+        next(error);
     }
-}
+};
